@@ -10,7 +10,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
-body{ background-image:url('/images/backk.jpeg');}
+body{ background-image:url('../images/backk.jpeg');}
 
 .cropped {
     height: 51px;
@@ -146,7 +146,7 @@ body{ background-image:url('/images/backk.jpeg');}
 
 .background-section {
     position: relative;
-    background: url('/images/file-20230118-8082-ogudaj.jpg.webp') no-repeat center center;
+    background: url('../images/file-20230118-8082-ogudaj.jpg.webp') no-repeat center center;
     background-size: cover;
     height: 570px;
     display: flex;
@@ -155,7 +155,7 @@ body{ background-image:url('/images/backk.jpeg');}
 }
 .background-section-2 {
     position: relative;
-    background: url('/images/Digital-Nigeria-3.jpg') no-repeat center center;
+    background: url('../images/Digital-Nigeria-3.jpg') no-repeat center center;
     background-size: cover;
     height: 570px;
     display: flex;
