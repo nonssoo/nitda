@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <style>
+        body{
+            background-image: url(/images/backservices.jpeg);
+            color: white;
+        }
+        .background-section {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .content-card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .content-card2 {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            max-width: 500px;
+        }
+
+        .header {
+            margin-bottom: 10px;
+        }
+
+        .aboutcard {
+            text-align: justify;
+        }
+
+        .services-section {
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .col-md-4 {
+            flex: 1 1 calc(33.333% - 20px);
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            position: relative;
+            height: 250px;
+            width: 100%;
+            text-decoration: none; /* Remove underline from links */
+            color: inherit; /* Inherit text color */
+        }
+
+        .card:hover {
+            height: 250px;
+            width: calc(100% + 10px);
+            margin-left: -10px;
+            text-decoration: none;
+            color: white;
+            background-color: white;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            color: #1c4c29;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-family: Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .card-text {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .icons {
+            max-width: 200px;
+            max-height: 175px;
+            justify-items: center;
+            align-items: center;
+            padding: auto;
+            margin: auto;
+            background-color: white;
+        }
+        .aboutcard{
+            color: white;
+
+        }
+        .header{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"><img class="cropped" src="images/cropped-cropped-NITDA-Logo-new-03.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-button"  href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-button" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-button" href="interventions.html">Interventions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-button" href="regulations.html">Regulations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-button" href="FAQS.html">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-button" href="contact.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br><br><br>
+
+    <section class="background-">
+        <div class="">
+            <h2 class="display-5 header">Services</h2>
+            <p class="text-justify aboutcard">
+                The National Institute of Technology (NIT) is renowned for providing a comprehensive range of advanced technological services and solutions. These services are designed to support various sectors by enhancing efficiency, security, and compliance through innovative and reliable methodologies. Leveraging cutting-edge technology and a team of skilled professionals, NIT ensures that organizations can meet regulatory standards, optimize operations, and protect critical data. The institute's dedication to excellence is evident in its commitment to continuous improvement and its proactive approach to addressing the ever-evolving challenges in the tech landscape.
+            </p>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="ST.html" class="card">
+                    <img src="images/image1.png" class="icons" alt="Software testing">
+                    <div class="card-content">
+                        <h3 class="card-title display-5">Software Testing</h3>
+                        <p class="card-text"></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="IT.html" class="card">
+                    <img src="images/image2.jpg.png" class="icons" alt="IT Clearance">
+                    <div class="card-content">
+                        <h3 class="card-title display-5">IT Clearance</h3>
+                        <p class="card-text"></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="LOI.html" class="card">
+                    <img src="images/image3.png" class="icons" alt="Licensing of OEMs">
+                    <div class="card-content">
+                        <h3 class="card-title">Licensing of OEMs</h3>
+                        <p class="card-text"></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="it-service-provider-registration.html" class="card">
+                    <img src="images/image4.png" class="icons" alt="IT service provider registration">
+                    <div class="card-content">
+                        <h3 class="card-title">IT service provider registration</h3>
+                        <p class="card-text"></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="domain-registration.html" class="card">
+                    <img src="images/image5.png" class="icons" alt="Domain registration">
+                    <div class="card-content">
+                        <h3 class="card-title">Domain registration</h3>
+                        <p class="card-text"></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="vapt.html" class="card">
+                    <img src="images/image6.png" class="icons" alt="VAPT">
+                    <div class="card-content">
+                        <h3 class="card-title">VAPT</h3>
+                        <p class="card-text"></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+<br><br><br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5>Subsidiaries</h5>
+                    <ul class="list-unstyled">
+                        <li>NCAIR</li>
+                        <li>ONDI</li>
+                    </ul>
+                    <h5>Other Zonal Offices</h5>
+                    <ul class="list-unstyled">
+                        <li>Port Harcourt</li>
+                        <li>Gombe</li>
+                        <li>Kano</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">IT Project Clearance</a></li>
+                        <li><a href="#">NITDA Academy</a></li>
+                        <li><a href="#">Scholarships</a></li>
+                        <li><a href="#">Regulations</a></li>
+                        <li><a href="#">Forms</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">CERT</a></li>
+                        <li><a href="#">PKI</a></li>
+                        <li><a href="#">Digital Trustmark</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Cookies Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">ISMS Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>NITDA south west zone</h5>
+                    <address>
+                        NO 9 Kofe abayomi, Victoria island lagos <a href="mailto:info@nitda.gov.ng">info@nitda.gov.ng</a><br>
+                        Phone: <a href="tel:+2348168401851">+2348168401851</a>
+                    </address>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 NITDA | All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<html lang="en">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <style> 
+        body{
+          color: #1c4c29;
+        }
+        .card {
+          transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      }
+      .card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          background-color: #1c4c29;
+          color: white;
+      }
+      .card img {
+          height: 200px;
+          object-fit: cover;
+      }
+      .content-card{
+        min-height: 400px;
+        
+      }
+
+      .card-header{
+        border: 15px;
+        border:0.5px solid #1c4c29;
+        
+
+      }
+      .carousel-item img {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+        .carousel {
+            margin: 0;
+            padding: 0;
+        }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #198754;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+      </style>
+      </head><body >
+        <div class="">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html"><img class="cropped" src="images/cropped-cropped-NITDA-Logo-new-03.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-button"  href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-button" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-button" href="interventions.html">Interventions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-button" href="regulations.html">Regulations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-button" href="FAQS.html">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-button" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+      <div class="container-fluid">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="carouse" src="images/Digital-Nigeria-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/file-20230118-8082-ogudaj.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-eHealth-Africa.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-SMEDAN.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-SMEDAN.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-SMEDAN.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-SMEDAN.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-SMEDAN.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-SMEDAN.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-SMEDAN.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carouse" src="images/NITDA-and-SMEDAN.jpg.webp" class="d-block w-100" alt="...">
+              </div>
+            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div></div></div>
+          <br>
+          <section class="space"></section>
+          <section class=" content-card">
+            <p class="display-5 text-center card-header"> About us</p>
+            <br>
+            <p class="overflow-x-scroll card-body text-center"> 
+                The National Information Technology Development Agency (NITDA) is the apex regulatory body for the development and regulation of Information Technology (IT) in Nigeria. Established with a vision to transform Nigeria into a knowledge-based and globally competitive society, NITDA is dedicated to fostering the growth and sustainable development of IT infrastructure, policies, and services. Our mandate includes the regulation of IT practices, administration of domain registrations, and provision of essential services such as Vulnerability Assessment and Penetration Testing (VAPT). Through strategic initiatives, partnerships, and capacity-building programs, NITDA aims to enhance digital literacy, drive innovation, and ensure a secure and robust digital ecosystem across the nation.
+                
+                </p>
+          </section>
+          <section>
+            <br><br><br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Literacy</h5>
+                                <p class="card-text">plays a pivotal role in enhancing digital literacy across Nigeria through a variety of strategic initiatives and programs. </div>
+                        </div><br>
+                    </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Regulation</h5>
+                                    <p class="card-text">plays a crucial role in regulating the IT sector in Nigeria, ensuring that the industry operates within a well-defined framework of standards and best practices</div>
+                            </div><br>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Certification</h5>
+                                    <p class="card-text">is instrumental in enhancing the credibility and standards of the IT sector in Nigeria through its comprehensive certification programs. </div>
+                                </div><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section><br><br>
+          <section class="content-card">
+          <p class="text-center display-5 card-header">Who we are</p><br>
+          <p class="card-body text-center c">National Information Technology Development Agency (NITDA) was created in April 2001 to implement the Nigerian Information Technology Policy and co-ordinate general IT development in the country.
+
+            Our Act (National Information Technology Development Act (2007) mandate us to create a framework for the planning, research, development, standardization, application, coordination, monitoring, evaluation and regulation of Information Technology practices, activities and systems in Nigeria.
+            
+            Our role therefore is to develop, regulate and advise on Information technology in the country through regulatory standards, guidelines and policies. Additionally, NITDA is the clearing house for all IT projects and infrastructural development in the country. It is the prime Agency for e-government implementation, Internet governance and general IT development in Nigeria.
+            
+            NITDA is poised to actualise its mammoth mandate through strategic and inclusive stakeholder management, local and international partnership and efficient utilisation of resources in the interest of Nigeria
+            
+            
+            </p></section>
+            
+            <br>
+            
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mission">
+                  <div class="card-body">
+                    <div class="card-header header">Mission</div>
+                    <div class="card-text text-center">We drive digital transformation to empower Nigerians through digital innovation, accessibility and enabling regulations.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mission">
+                  <div class="card-body overflow-scroll">
+                    <div class="card-header header">Core Values
+                    </div><div class="card-text"><ul>
+                      <li>People First</li>
+                      <li>Innovative</li>
+                      <li>Professionalism</li>
+                      <li>Leadership Principles</li>
+                      <li>Blue smooth wall textured background</li>
+                      <li>Create clarity</li>
+                      <li>Unleash energy</li>
+                      <li>Build trust</li>
+                      <li>Win today</li>
+                      <li>Shape tomorrow</li>
+                      <li>Learn continuosly</li>
+                      <li>Champion diversity</li>
+                  </ul>
+
+                    </div>
+                  </div>
+                </div>
+              </div><div class="col-md-4">
+                <div class="card mission">
+                  <div class="card-body">
+                    <div class="card-header header">Vision</div>
+                    <div class="card-text text-center">To make Nigeria a digitally empowered nation, fostering inclusive economic growth through technological innovation.</div>
+                  </div>
+                </div>
+              </div>
+              
+            </div><br><br>
+          <div class="display-5 header text-white">Structure
+          </div><br>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/NITDA-and-eHealth-Africa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CEO</h5>
+                  <p class="card-text">.........</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/file-20230118-8082-ogudaj.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">HEAD OF ADMIN</h5>
+                  <p class="card-text">..........</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/NITDA-and-eHealth-Africa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">TREASURER</h5>
+                  <p class="card-text">............</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/NITDA-and-SMEDAN.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cybersecurity</h5>
+                  <p class="card-text">................</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/Digital-Nigeria-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Networking</h5>
+                  <p class="card-text">.................</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/NITDA-and-eHealth-Africa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hardware</h5>
+                  <p class="card-text">.................</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          </div><br><div class="content-card">
+          <p class="display-5 header">Career</p>
+          <p class="display-7 gree"> Careers with nitda: There are no current vacancies for employment in the National  Information Technology Development Agency south west zonal office. 
+
+            Vacancies shall be advertised in the National newspapers and on NITDA  website.
+            
+            Thank you.</p>
+
+      </div><br><br></div>
+      <a href="#" class="scroll-to-top">↑</a>
+
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5>Subsidiaries</h5>
+                    <ul class="list-unstyled">
+                        <li>NCAIR</li>
+                        <li>ONDI</li>
+                    </ul>
+                    <h5> Other Zonal Offices</h5>
+                    <ul class="list-unstyled">
+                        <li>Port Harcourt</li>
+                        <li>Gombe</li>
+                        <li>Kano</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">IT Project Clearance</a></li>
+                        <li><a href="#">NITDA Academy</a></li>
+                        <li><a href="#">Scholarships</a></li>
+                        <li><a href="#">Regulations</a></li>
+                        <li><a href="#">Forms</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">CERT</a></li>
+                        <li><a href="#">PKI</a></li>
+                        <li><a href="#">Digital Trustmark</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Cookies Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">ISMS Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>NITDA south west zone</h5>
+                    <address>
+                       NO 9 Kofe abayomi, Victoria island lagos <a href="mailto:info@nitda.gov.ng">info@nitda.gov.ng</a><br>
+                        Phone: <a href="tel:+2348168401851">+2348168401851</a>
+                    </address>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 NITDA | All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      // Show/Hide Scroll to Top Button
+      window.addEventListener('scroll', function() {
+          const scrollToTopButton = document.querySelector('.scroll-to-top');
+          if (window.scrollY > 300) {
+              scrollToTopButton.style.display = 'block';
+          } else {
+              scrollToTopButton.style.display = 'none';
+          }
+      });
+  </script>
+</body>   
+  </body></div>
+    </html>
+    
