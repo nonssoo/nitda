@@ -155,7 +155,7 @@ body{ background-image:url('/images/backk.jpeg');}
 }
 .background-section-2 {
     position: relative;
-    background: url(/images/Digital-Nigeria-3.jpg) no-repeat center center;
+    background: url('/images/Digital-Nigeria-3.jpg') no-repeat center center;
     background-size: cover;
     height: 570px;
     display: flex;
