@@ -10,7 +10,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
-body{ background-image:url(/images/backk.jpeg);}
+body{ background-image:url('/images/backk.jpeg');}
 
 .cropped {
     height: 51px;
